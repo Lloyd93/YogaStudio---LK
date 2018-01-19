@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+  background: transparent url('../images/Yoga.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+#title header{
+  height: auto;
+  text-align: center;
+  font-size: 46px;
+}
+
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.loop-box{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border: 1px solid grey;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 3px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+
+}
+.style{
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+
+}
+
+.register-button, .full-text{
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #56f442;
+    transition: all 0.3s;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+.register-button:hover, .full-text:hover{
+    background-color: #cc94f7;
+}
+
+
+#register-form{
+    width: 450px;
+    margin: 0 auto;
+}
+.input-style{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.textarea-style{
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid grey;
+    resize: none;
+    margin-left: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.go-back{
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 30px;
+    display: block;
+}
+.submit-form{
+    width: 300px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    float: right;
+    cursor: pointer;
+    transition: all 0.3s;
+    outline: none;
+}
+.submit-form:hover{
+    background-color: #56f442;
+}
+
+.error{
+    border: 1px solid red;
+}
+
+.success-block{
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.admin-table {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.admin-table td{
+    padding: 10px;
+}
+
+.admin-link{
+    width: 100%;
+    padding: 3px;
+}
